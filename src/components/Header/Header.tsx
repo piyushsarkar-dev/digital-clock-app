@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ThemeToggleButton from "../ThemeToggleButton";
+import { AuroraText } from "../shadcnui/aurora-text";
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
           <h1
             className="text-2xl font-semibold"
             aria-label="App Name">
-            Digital Clock
+            <AuroraText>Digital Clock</AuroraText>
           </h1>
         </Link>
 
